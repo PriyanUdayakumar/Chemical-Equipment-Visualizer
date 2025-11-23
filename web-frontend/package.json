@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "deploy": "vite build && cd dist && git init && git add -A && git commit -m 'Deploy' && git push -f https://github.com/PriyanUdayakumar/Chemical-Equipment-Visualizer.git main:gh-pages"
   },
-  "homepage": "https://priyanudayakumar.github.io/Chemical-Equipment-Visualizer/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
