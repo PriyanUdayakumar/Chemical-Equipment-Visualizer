@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000/api', // Your backend API base URL
+  baseURL: 'https://chemical-equipment-visualizer-b4t5.onrender.com/api',
 });
 
 // Use an interceptor to add the auth token to every request
