@@ -1,0 +1,7 @@
+Django
+djangorestframework
+pandas
+reportlab
+django-cors-headers
+openpyxl
+djangorestframework-simplejwt

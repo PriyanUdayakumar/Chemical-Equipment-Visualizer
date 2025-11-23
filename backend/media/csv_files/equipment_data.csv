@@ -1,0 +1,11 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Pump-A,Centrifugal,100,50,80
+Pump-B,Centrifugal,120,55,85
+Compressor-A,Reciprocating,80,200,150
+Compressor-B,Reciprocating,90,210,155
+Heat Exchanger-A,Shell and Tube,500,30,120
+Heat Exchanger-B,Plate,550,35,125
+Valve-A,Gate,1000,20,70
+Valve-B,Ball,1000,20,70
+Tank-A,Storage,0,10,60
+Tank-B,Storage,0,10,60

@@ -1,0 +1,123 @@
+/* styles.qss */
+
+QWidget {
+    background-color: #2E3440; /* Dark blue-grey */
+    color: #ECEFF4; /* Light grey */
+    font-family: Arial, sans-serif;
+}
+
+QMainWindow, QDialog {
+    background-color: #2E3440;
+}
+
+/* Labels */
+QLabel {
+    color: #D8DEE9; /* Lighter grey */
+    font-size: 14px;
+}
+
+/* Line Edits */
+QLineEdit {
+    background-color: #4C566A; /* Lighter shade of the background */
+    color: #ECEFF4;
+    border: 1px solid #3B4252;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #88C0D0; /* Frosty blue for focus */
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #5E81AC; /* A calm blue */
+    color: #ECEFF4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #81A1C1; /* Lighter blue on hover */
+}
+
+QPushButton:pressed {
+    background-color: #88C0D0; /* Frosty blue when pressed */
+}
+
+/* Table View */
+QTableView {
+    background-color: #434C5E; /* Slightly lighter background */
+    color: #ECEFF4;
+    border: 1px solid #3B4252;
+    gridline-color: #3B4252; /* Grid lines to match border */
+    border-radius: 5px;
+}
+
+QTableView::item {
+    padding: 5px;
+}
+
+QHeaderView::section {
+    background-color: #3B4252; /* Darker header */
+    color: #ECEFF4;
+    padding: 5px;
+    border: 1px solid #2E3440;
+    font-weight: bold;
+}
+
+/* Scroll Bars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    border: 1px solid #3B4252;
+    background: #434C5E;
+    width: 15px;
+    margin: 15px 0 15px 0;
+    border-radius: 0px;
+}
+
+QScrollBar::handle {
+    background: #5E81AC;
+    min-height: 20px;
+    border-radius: 7px;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: #4C566A;
+    height: 14px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+}
+
+/* List Widget */
+QListWidget {
+    background-color: #434C5E;
+    color: #ECEFF4;
+    border: 1px solid #3B4252;
+    border-radius: 5px;
+}
+
+QListWidget::item {
+    padding: 10px;
+}
+
+QListWidget::item:hover {
+    background-color: #4C566A;
+}
+
+/* Message Box */
+QMessageBox {
+    background-color: #3B4252;
+}
+
+QMessageBox QLabel {
+    color: #ECEFF4;
+    font-size: 14px;
+}
